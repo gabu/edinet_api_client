@@ -1,0 +1,3 @@
+[submodule "edinet-api-spec"]
+	path = edinet-api-spec
+	url = https://github.com/gabu/edinet-api-spec.git
