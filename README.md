@@ -13,41 +13,19 @@ For more information, please visit [https://twitter.com/gabu](https://twitter.co
 
 ## Installation
 
-### Build a gem
+Add this line to your application's Gemfile:
 
-To build the Ruby code into a gem:
-
-```shell
-gem build edinet_api_client.gemspec
+```ruby
+gem 'edinet_api_client'
 ```
 
-Then either install the gem locally:
+And then execute:
 
-```shell
-gem install ./edinet_api_client-1.0.0.gem
-```
+    $ bundle
 
-(for development, run `gem install --dev ./edinet_api_client-1.0.0.gem` to install the development dependencies)
+Or install it yourself as:
 
-or publish the gem to a gem hosting service, e.g. [RubyGems](https://rubygems.org/).
-
-Finally add this to the Gemfile:
-
-    gem 'edinet_api_client', '~> 1.0.0'
-
-### Install from Git
-
-If the Ruby gem is hosted at a git repository: https://github.com/gabu/edinet_api_client, then add the following in the Gemfile:
-
-    gem 'edinet_api_client', :git => 'https://github.com/gabu/edinet_api_client.git'
-
-### Include the Ruby code directly
-
-Include the Ruby code directly using `-I` as follows:
-
-```shell
-ruby -Ilib script.rb
-```
+    $ gem install edinet_api_client
 
 ## Getting Started
 
